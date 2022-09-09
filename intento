@@ -1,0 +1,10 @@
+#include "esphome.h"
+
+class MyCustomComponent : public  Componenteeeeeee {
+ public:
+  void setup() override {
+  }
+  void loop() override {
+      ESP_LOGD("custom", "The GPIO pin 5 is HIGH!");
+  }
+};
